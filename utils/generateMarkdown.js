@@ -14,12 +14,19 @@ function generateMarkdown(data) {
 
   ## Table Of Content
   *[Title](#title)
+
   *[Description](#description)
+
   *[Installation](#installation)
+
   *[Usage](#usage)
+
   *[License](#license)
+
   *[Contributor(s)](#contributor)
+
   *[Test](#test)
+  
   *[Questions](#questions)
 
   ## Installation
@@ -39,9 +46,7 @@ function generateMarkdown(data) {
 
   ## Questions
   Any questions about this project please send me a message on https://github.com/${data.github} or email me at [${data.email}](mailto:${data.email})
-  ${data.license ? `
-  
-  ## License
+  ${data.license ? `## License
   This project is licensed under the ${data.license} .` : ''}
 `
 return readMe;
