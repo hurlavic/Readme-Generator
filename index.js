@@ -37,10 +37,10 @@ inquirer.prompt([
       {
         name: "contributor",
         type: "input",
-        message: "list of contributor(s) to your project (if any)?",
+        message: "list of contributors to your project (if any)?",
       },
       {
-        name: "test",
+        name: "tests",
         type: "input",
         message: "how can your project be tested (if applicable)?",
       },
@@ -69,7 +69,7 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-    userQuestion().then((data) => writeToFile("README.md", data));
+    userQuestion().then((data) => writeToFile("sample.md", data));
 }
 // function call to initialize program
 init();
