@@ -5,21 +5,21 @@
   This is a command line application to generate professional readme files for new projects.
 
   ## Table Of Content
-  *[Title](#title)
+  [Title](#title)
 
-  *[Description](#description)
+  [Description](#description)
 
-  *[Installation](#installation)
+  [Installation](#installation)
 
-  *[Usage](#usage)
+  [Usage](#usage)
 
-  *[License](#license)
+  [License](#license)
 
-  *[Contributor(s)](#contributor)
+  [Contributor(s)](#contributor)
 
-  *[Test](#test)
+  [Test](#test)
   
-  *[Questions](#questions)
+  [Questions](#questions)
 
   ## Installation
   To install this application, you need clone the repo to your local computer and run the command "npm init -y" to download the appropriate files required. 
